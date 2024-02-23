@@ -23,7 +23,7 @@ X <- X %>% mutate_all(~ifelse(is.na(.), 0, .))
 X <- as.matrix(X)
 
 ##--------------------------------------------------------------------------------------------------------
-#generate train & calibration data with data splitting
+#split the data into train / calibration data
 set.seed(1234)
 n <- dim(X)[1]
 n_train <- 379
