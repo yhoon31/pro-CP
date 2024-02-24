@@ -1,5 +1,4 @@
 library(KernSmooth)
-library(np)
 source("functions.R")
 
 ##--------------------------------------------------------------------------------------------------------
@@ -24,7 +23,7 @@ betahat <- lm(Y_train[A_train==1]~X_train[A_train==1])$coefficients ##score = |y
 h <- dpill(X_train,A_train) ##select bandwidth
 phat <- function(x)
 { 
-  K_x <- ker(x,X_train,h)
+  K_x <- gaussian_kernel((x-X_train)/h)
   return(sum(K_x*A_train)/sum(K_x))
 }
 phat <- Vectorize(phat)

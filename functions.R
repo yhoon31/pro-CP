@@ -43,13 +43,6 @@ weighted_quantile <- function(probs,values,alpha)
   return(q)
 }
 
-#normal kernel
-ker <- function(x,y,h)
-{
-  return(exp(-0.5*sum(((x-y)/h)^2)))
-}
-ker <- Vectorize(ker)
-
 ##--------------------------------------------------------------------------------------------------------
 
 # Kernel regression function (with Gaussian kernel)
