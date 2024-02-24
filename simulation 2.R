@@ -10,6 +10,7 @@ beta0 <- 0
 beta1 <- 1
 f_X <- f_X_unif
 f_prop <- f_prop_1 #setting 1
+#f_prop <- f_prop_2 #setting 2
 n_train <- 500
 X_train <- f_X(n_train)
 p_X_train <- f_prop(X_train) 
