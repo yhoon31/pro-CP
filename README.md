@@ -1,9 +1,9 @@
-The codes in this repository reproduce the experimental results in "Simulatneous Conformal Prediction for Missing Outcomes with Propensity Score $\epsilon$-Discretization".
+The codes in this repository reproduce the experimental results in "Simultaneous Conformal Prediction for Missing Outcomes with Propensity Score Discretization".
 
-functions.R contains the functions used in the experiments, including the functions that run pro-CP and pro-CP2 procedures.
+The functions used in the experiments, including those that run pro-CP and pro-CP2 procedures, are contained in functions.R.
 
-Simulation 1.R and Simulation 2.R reproduce the simulations in Section 4.1.
+Simulation1.R and Simulation2.R reproduce the simulations described in Section 4.1 of the paper.
 
-airfoil.R reproduces the experiment in Section 4.2.
+airfoil.R reproduces the experiment detailed in Section 4.2.
 
-JOBS.R reproduces the experiment in Section 4.3.
+JOBS.R reproduces the experiment outlined in Section 4.3.
