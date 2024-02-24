@@ -1,4 +1,4 @@
-The codes in this repository reproduce the experimental results in "Simultaneous Conformal Prediction for Missing Outcomes with Propensity Score Discretization".
+The codes in this repository reproduce the experimental results in "Simultaneous Conformal Prediction for Missing Outcomes with Propensity Score $\epsilon$-Discretization".
 
 The functions used in the experiments, including those that run pro-CP and pro-CP2 procedures, are contained in functions.R.
 
